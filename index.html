@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Anime Blog</title>
+    <link rel="styslesheet" type="text/css" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-1 bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Anime Blog</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav ">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active px-5" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-5" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-5" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled px-5">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- carousal -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="demon-slayer-1.png"
+            class="d-block w-100"
+            alt="demon slayer troops"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Tanjiro and Nezuko</h5>
+            <p>
+              Tanjiro is the elder brother of Nezuko and her only remaining
+              family member alive after her family was killed. As such, Nezuko,
+              who is usually calm and well-mannered, will become enraged and
+              attack any Demon who harms Tanjiro. Being the sole surviving
+              members of a poor family, the siblings are very close, trusting
+              and loving of one another. He is likely the only one capable of
+              actively calming Nezuko down by calling her name or singing to her
+              their mother's lullaby. After Muzan turns Tanjiro into a Demon,
+              Nezuko is the only person who he does not try to kill or
+              purposefully harm, even after she clings to him and blocks one of
+              his attacks. This might be possible due to Muzan only asking him
+              to destroy the Demon Slayer Corps.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="demon-slayer-2.jpg"
+            class="d-block w-100"
+            alt="demon slayer troops"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Tanjiro and Nezuko</h5>
+            <p>
+              Tanjiro and Nezuko are the most popular siblings in the Demon
+              Slayer series. They have been through a lot during the series and
+              have supported each other in the toughest of times.Nezuko assisted
+              Tanjiro and protected him numerous times while Tanjiro swore to
+              find a cure for Nezuko. Their interactions are extremely
+              wholesome, especially towards the end of the series.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="demon-slayer-3.png"
+            class="d-block w-100"
+            alt="demon slayer troops"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Kyojuro</h5>
+            <p>
+              Kyojuro was a responsible brother and helped Senjuro with things
+              he struggled with. Despite having a father, Kyojuro spent most of
+              his time looking after Senjuro whenever he wasn’t assigned on
+              missions. He was extremely kind and Senjuro looked up to him and
+              loved him. Senjuro was heartbroken when he heard about his
+              brother’s death, and Tanjiro was there to comfort him during that
+              difficult period.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- cards -->
+    <div class="cards-abc d-flex justify-content-evenly mt-5">
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://www.sideshow.com/wp/wp-content/uploads/2022/01/Giyu-Tomioka-water-hashira.jpeg"
+          class="card-img-top"
+          alt="Giyu Tomioka"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Giyū Tomioka</h5>
+          <p class="card-text">
+            Giyu Tomioka (富とみ岡おか 義ぎ勇ゆう Tomioka Giyū?) is a major
+            supporting character of Demon Slayer: Kimetsu no Yaiba. He is a
+            Demon Slayer of the Demon Slayer Corps and the current Water Hashira
+            (水みず柱ばしら Mizu Bashira?).
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Gender - Male</li>
+          <li class="list-group-item">
+            Occupation - Demon Slayer Water Hashira
+          </li>
+          <li class="list-group-item">Combat Style - Water Breathing</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://www.sideshow.com/wp/wp-content/uploads/2022/01/Kyojuro-Rengoku-flame-hashira.jpeg"
+          class="card-img-top"
+          alt="Kyōjurō Rengoku"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Kyōjurō Rengoku</h5>
+          <p class="card-text">
+            Kyojuro Rengoku (煉れん獄ごく 杏きょう寿じゅ郎ろう Rengoku Kyōjurō?)
+            was a major supporting character of Demon Slayer: Kimetsu no Yaiba
+            and a major character in the Mugen Train Arc. He was a Demon Slayer
+            of the Demon Slayer Corps and the late Flame Hashira (炎えん柱ばしら
+            En Bashira?).
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Gender - Male</li>
+          <li class="list-group-item">
+            Occupation - Demon Slayer Flame Hashira
+          </li>
+          <li class="list-group-item">Combat Style - Flame Breathing</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://www.sideshow.com/wp/wp-content/uploads/2022/01/Gyomei-Himejima-stone-hashira.jpeg"
+          class="card-img-top"
+          alt="Gyōmei Himejima"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Gyōmei Himejima</h5>
+          <p class="card-text">
+            Gyomei Himejima (悲ひ鳴め嶼じま 行ぎょう冥めい Himejima Gyōmei?) is
+            a major supporting character of Demon Slayer: Kimetsu no Yaiba. He
+            is a Demon Slayer of the Demon Slayer Corps and the current Stone
+            Hashira (岩いわ柱ばしら Iwa Bashira?). Gyomei also serves as the
+            mentor of Genya Shinazugawa.
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Gender - Male</li>
+          <li class="list-group-item">
+            Occupation - Demon Slayer Stone Hashira
+          </li>
+          <li class="list-group-item">Combat Style - Stone Breathing</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://www.sideshow.com/wp/wp-content/uploads/2022/01/Shinobu-Kocho-insect-hashira.jpg"
+          class="card-img-top"
+          alt="Shinobu Kochō
+          "
+        />
+        <div class="card-body">
+          <h5 class="card-title">Shinobu Kochō</h5>
+          <p class="card-text">
+            Shinobu Kocho (胡こ蝶ちょう しのぶ Kochō Shinobu?) is a major supporting character of Demon Slayer: Kimetsu no Yaiba. She is a Demon Slayer of the Demon Slayer Corps and the current Insect Hashira (蟲むし柱ばしら Mushi Bashira?). Shinobu Kocho is also the younger sister of Kanae Kocho along with her adoptive younger sister Kanao Tsuyuri. After a demon killed her parents, Shinobu joined the Demon Slayer Corps along with her sister in order to protect others from suffering the same fate as her.
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Gender - Female</li>
+          <li class="list-group-item">Occupation - Demon Slayer Insect Hashira</li>
+          <li class="list-group-item">Combat Style - Insect Breathing</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-5"></div>
+
+    <!-- form / contact us -->
+    <div class="w-50 mx-auto">
+      <form class="row g-3">
+        <div class="col-md-4">
+          <label for="validationServer01" class="form-label">First name</label>
+          <input
+            type="text"
+            class="form-control is-valid"
+            id="validationServer01"
+            value="Mark"
+            required
+          />
+          <div class="valid-feedback">Looks good!</div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationServer02" class="form-label">Last name</label>
+          <input
+            type="text"
+            class="form-control is-valid"
+            id="validationServer02"
+            value="Otto"
+            required
+          />
+          <div class="valid-feedback">Looks good!</div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationServerUsername" class="form-label"
+            >Username</label
+          >
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend3">@</span>
+            <input
+              type="text"
+              class="form-control is-invalid"
+              id="validationServerUsername"
+              aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback"
+              required
+            />
+            <div id="validationServerUsernameFeedback" class="invalid-feedback">
+              Please choose a username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationServer03" class="form-label">City</label>
+          <input
+            type="text"
+            class="form-control is-invalid"
+            id="validationServer03"
+            aria-describedby="validationServer03Feedback"
+            required
+          />
+          <div id="validationServer03Feedback" class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationServer04" class="form-label">State</label>
+          <select
+            class="form-select is-invalid"
+            id="validationServer04"
+            aria-describedby="validationServer04Feedback"
+            required
+          >
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+          </select>
+          <div id="validationServer04Feedback" class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationServer05" class="form-label">Zip</label>
+          <input
+            type="text"
+            class="form-control is-invalid"
+            id="validationServer05"
+            aria-describedby="validationServer05Feedback"
+            required
+          />
+          <div id="validationServer05Feedback" class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input
+              class="form-check-input is-invalid"
+              type="checkbox"
+              value=""
+              id="invalidCheck3"
+              aria-describedby="invalidCheck3Feedback"
+              required
+            />
+            <label class="form-check-label" for="invalidCheck3">
+              Agree to terms and conditions
+            </label>
+            <div id="invalidCheck3Feedback" class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="pt-5 bg-dark" style="height: 150px; margin-top: 40px">
+      <p class="text-center text-white">@ 2022 Deepak Tiwari</p>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
